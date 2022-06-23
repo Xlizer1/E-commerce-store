@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        align-items: center;
+        width: 75%;
+        li{
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin: 0 10px;
+            color: rgb(31, 31, 31);
+        }
+        li:after{
+            content: '';
+            position: absolute;
+            background-color: #000;
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+        }
+        li:hover:after{
+            width: 100%;
+            transition: 0.5s;
+        }
+    }
+    .link{
+        display: flex;
+        align-items: center;
+        color: #000;
+        .badge{
+            margin-right: -30px;
+            margin-top: -40px;
+        }
+        .cart{
+            display: 'flex';
+            align-items: 'center';
+            text-decoration: 'none';
+        }
+    }
+    
+}

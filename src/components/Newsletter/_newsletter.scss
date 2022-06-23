@@ -1,0 +1,32 @@
+.newsletter{
+    display: flex;
+    background: #ECECEC;
+    max-width: 1400px;
+    margin: 0 auto;
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        p{
+            width: 300px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+            margin-bottom: 27px;
+        }
+        input{
+            height: 40px;
+            width: 350px;
+            padding: 2px;
+            background-color: transparent;
+            border: 1px solid #000;
+            font-size: large;
+        }
+    }
+}

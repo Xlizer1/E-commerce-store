@@ -1,0 +1,45 @@
+.hero{
+    height: 784px;
+    display: flex;
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -100;
+    }
+    .content{
+        max-width: 450px;
+        margin-top: 100px;
+        margin-left: 783px;
+        h1{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 62px;
+            line-height: 85px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 26px;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+        }
+        button{
+            color: #fff;
+            background: #333333;
+            border: 1px solid #333333;
+            padding: 15px 40px;
+            letter-spacing: 2px;
+        }
+        button:hover{
+            letter-spacing: 5px;
+        }
+    }
+}
+

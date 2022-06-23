@@ -1,0 +1,55 @@
+@import './Header/header';
+@import './Hero/hero';
+@import './Products List/products';
+@import './Products List/Product/product';
+@import './Newsletter/newsletter';
+@import './Footer/footer';
+@import './Cart Item/cartItem';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.section {
+    padding: 3rem 6rem;
+    .container {
+        margin: 0 auto;
+        position: relative;
+        max-width: 80rem;
+    }
+}
+
+.loading{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.button{
+    color: #fff;
+    background: #333333;
+    border: 1px solid #333333;
+    padding: 15px 40px;
+    letter-spacing: 2px;
+}
+
+.button:hover{
+    background: #1a1a1a;
+    transition: 0.5s;
+}
+
+.button-outline{
+    background-color: transparent;
+    border: 1px solid #333333;
+    padding: 15px 40px;
+    letter-spacing: 2px;
+}
+.button-outline:hover{
+    background-color: #333333;
+    color: #fff;
+    transition: 0.5s;
+}
